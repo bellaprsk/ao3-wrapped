@@ -69,10 +69,10 @@ The scraper needs your session cookies to access your private reading history. H
 Open `config.py` and paste your details:
 
 ```python
-USERNAME = "your_ao3_username"
+USERNAME = "your_username"
 
 COOKIES = {
-    "_otwarchive_session": "PASTE_VALUE_HERE",
+    "_otwarchive_session": "paste_info",
     "user_credentials": "1",
 }
 ```
